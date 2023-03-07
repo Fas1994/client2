@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-export default class Header extends Component {
-  render() {
-    return (
-       
-        <>
+
+const Header = () => {
+  return (
+    <>
        <nav class="navbar bg-dark">
         
       <Link to= "/">
@@ -18,6 +17,9 @@ export default class Header extends Component {
       </ul>
     </nav>
       </>
-    )
-  }
+  )
 }
+
+export default Header
+
+
